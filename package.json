@@ -1,0 +1,25 @@
+{
+  "name": "monorepo-typescript",
+  "version": "1.0.0",
+  "description": "A monorepo in TypeScript",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc --build --verbose"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "prettier": "^2.8.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@monorepo/ui": "^1.0.0",
+    "@monorepo/utils": "^1.0.0",
+    "typescript": "^4.9.3"
+  }
+}

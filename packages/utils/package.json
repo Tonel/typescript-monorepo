@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.0.0",
+  "description": "The package containing some utility functions",
+  "main": "./build/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc --build"
+  }
+}
